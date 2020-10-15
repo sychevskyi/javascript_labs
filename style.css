@@ -1,4 +1,4 @@
-.gallery {
+.lighbox {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -8,8 +8,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  display: none;
 }
-.gallery img {
+.lighbox img {
   max-width: 60%;
   max-height: 100%;
+}
+.visible {
+  display: block;
 }
